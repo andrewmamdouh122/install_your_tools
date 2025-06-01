@@ -1,6 +1,5 @@
 # Automated Script To Install Kali Tools
 
----
 
 ---
 ## 🚀 Usage

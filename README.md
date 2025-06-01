@@ -21,8 +21,8 @@ sudo apt install nmap sqlmap metasploit-framework john hydra ffuf nuclei subfind
 then remove the kali repo ```./remove_kali.sh```
 
 ## ⚠️ Disclaimer Never Upgrade Your System While The Kali Repo In Your System 
----
-### if u faced peoblem in ur network after the installing use this commands
+
+if u faced peoblem in ur network after the installing use this commands
 ```bash
 sudo ip link set eth0 up
 sudo dhclient eth0

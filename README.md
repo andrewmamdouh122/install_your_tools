@@ -1,23 +1,17 @@
-# Automated Script to put Kali in ur system
+# Automated Script To Install Kali Tools
 
 ---
-
-## ⚠️ Disclaimer
-
-This repository is intended **strictly for educational purposes, authorized penetration testing, and red team engagements**.  
-Unauthorized use or deployment against systems without explicit permission is illegal and unethical.
 
 ---
 ## 🚀 Usage
 
-1. ```git clone https://github.com/andrewmamdouh122/reverse-shell-collection.git```
-2. ```cd reverse-shell-collection``` 
-3. After change the IP and PORT Compile or run the reverse shell .
-4. Start a listener on your attack machine (e.g., `nc -lvnp <PORT>`).
-5. Execute the reverse shell on the target machine.
+1. ```git clone https://github.com/andrewmamdouh122/install_your_tools.git```
+2. ```cd install_your_tools``` 
+3. ```chmod +x *```.
+4. to add kali repo ```./kali_repo.sh```
+5. install any tool u want ```sudo apt install nmap sqlmap crackmapexec netexec metasploit-framework john hydra ffuf sliver nuclei subfinder enum4linux havoc mimikatz seclists impacket-scripts netdiscover nikto evil-winrm peass python3-pip python2 python3-scapy python2 exploitdb powershell-empire```
+6. then remove the kali repo ```./remove_kali.sh```
 
 
-## 📜 License
-
-This project is provided "as is" without warranty.  
-Use responsibly and legally.
+## ⚠️ Disclaimer
+Never Upgrade Your System While The Kali Repo In Your System 

@@ -18,12 +18,12 @@ install any tool u want
 sudo apt install nmap sqlmap metasploit-framework john hydra ffuf nuclei subfinder seclists netdiscover nikto python3-pip python2 python3-scapy python2 
 ```
 
+then remove the kali repo ```./remove_kali.sh```
 
 ## ⚠️ Disclaimer
 Never Upgrade Your System While The Kali Repo In Your System 
 
-then remove the kali repo ```./remove_kali.sh```
-if u faced peoblem in ur network after the installing use this commands
+### if u faced peoblem in ur network after the installing use this commands
 ```bash
 sudo ip link set eth0 up
 sudo dhclient eth0

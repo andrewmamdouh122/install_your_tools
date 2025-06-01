@@ -3,16 +3,13 @@
 
 ---
 ## 🚀 Usage
-
-1. 
+ 
 ```bash
 git clone https://github.com/andrewmamdouh122/install_your_tools.git
-```
-3. 
+``` 
 ```bash
 cd install_your_tools
 ``` 
-5.
 ```bash
 chmod +x *
 ```

@@ -15,7 +15,7 @@ to add kali repo
 ```
 install any tool u want 
 ```bash
-sudo apt install nmap sqlmap crackmapexec netexec metasploit-framework john hydra ffuf sliver nuclei subfinder enum4linux havoc mimikatz seclists impacket-scripts netdiscover nikto evil-winrm peass python3-pip python2 python3-scapy python2 exploitdb powershell-empire
+sudo apt install nmap sqlmap metasploit-framework john hydra ffuf nuclei subfinder seclists netdiscover nikto python3-pip python2 python3-scapy python2 
 ```
 then remove the kali repo ```./remove_kali.sh```
 
